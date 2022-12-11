@@ -1,0 +1,19 @@
+s (13 sloc)  275 Bytes
+
+/node_modules/
+/cypress/e2e/1-getting-started/
+/cypress/e2e/2-advanced-examples/
+
+user.js
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+package-lock.json
+
+# Local History for Visual Studio Code
+.history/
+.idea

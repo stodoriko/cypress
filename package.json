@@ -1,0 +1,22 @@
+{
+  "name": "cypress_p1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chrome1": "npx cypress run --config-file cypress.json --browser chrome",
+    "chrome2": "npx cypress run --config-file cypress.json --browser chrome --headed"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "author": "stodoriko",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "cypress": "^12.0.2"
+  }
+}
